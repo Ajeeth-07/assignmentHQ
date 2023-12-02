@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Table */
+table {
+  width: 100%;
+  max-width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  border: 0.5px solid #e0e0e0;
+}
+
+th, td {
+  border: 0.5px solid #e0e0e0;
+  padding: 5px;
+}
+
+th {
+  background-color: #fff;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+/* Search bar */
+.search-box{
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #f9f9f9 url('https://cdn-icons-png.flaticon.com/512/622/622669.png') no-repeat right;
+  background-size: 16px 16px;
+  background-position: right 10px center;
+  width: 50%;
+  height: 30px;
+  outline: none;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button {
+  margin: 0 5px;
+  border: 1px solid black;
+}
+
+/* Checkboxes */
+.checkbox {
+  margin-right: 10px;
+}
+
+/* Selected rows */
+.selected {
+  background-color: lightgray;
+}
+
+.icon{
+  transition: transform 0.3s ease;
+}
+.icon:hover{
+  transform: scale(1.2);
+}
+.header{
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  padding: 16px;
+  background-color: #f5f5f5;
+}
+.bulk-delete{
+  margin-left: auto;
+}
+.table-row{
+  text-align: center;
+}
+
+
